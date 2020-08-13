@@ -9,6 +9,9 @@ jobs:
         name: [ 12 ]
 
     steps:
+    - name: Debugging with tmate
+      uses: mxschmitt/action-tmate@v2
+
     - name: Set up Go
       uses: actions/setup-go@v1
       with:
